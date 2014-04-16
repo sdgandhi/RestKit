@@ -68,8 +68,8 @@ EXTERNAL SOURCES:
     :path: .
   RKCLLocationValueTransformer:
     :git: https://github.com/RestKit/RKCLLocationValueTransformer
-  RKSupport:
-    :path: Vendor/RKSupport
+#  RKSupport:
+#    :path: Vendor/RKSupport
 
 SPEC CHECKSUMS:
   AFNetworking: e8cfd8f3fe3bfe19124a0cc63f4d45752d892a56
