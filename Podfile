@@ -1,7 +1,7 @@
 inhibit_all_warnings!
 
 def import_pods
-  pod 'RKSupport', path: 'Vendor/RKSupport'
+  #pod 'RKSupport', path: 'Vendor/RKSupport'
   
   pod 'CSURITemplate', :head # Until new tag is created
   pod 'RestKit', path: '.'
