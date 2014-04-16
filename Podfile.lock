@@ -33,8 +33,7 @@ PODS:
     - AFNetworking (~> 2.2.0)
     - CSURITemplate (~> 0.3)
     - RestKit/ObjectMapping
-#    - RestKit/Support
-#    - RKSupport (~> 1.0.0)
+    - RestKit/Support
   - RestKit/ObjectMapping (1.0.0-development):
     - RestKit/Support
     - RKValueTransformers (~> 1.0.1)
