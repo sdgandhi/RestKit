@@ -38,8 +38,8 @@ PODS:
   - RestKit/ObjectMapping (1.0.0-development):
     - RestKit/Support
     - RKValueTransformers (~> 1.0.1)
-#  - RestKit/Support (1.0.0-development):
-#    - TransitionKit (= 2.0.0)
+  - RestKit/Support (1.0.0-development):
+    - TransitionKit (= 2.0.0)
   - RestKit/Testing (1.0.0-development)
   - RKCLLocationValueTransformer (1.0.0):
     - RKValueTransformers (~> 1.0.0)
@@ -61,15 +61,15 @@ DEPENDENCIES:
   - RestKit (from `.`)
   - RestKit/Testing (from `.`)
   - RKCLLocationValueTransformer (from `https://github.com/RestKit/RKCLLocationValueTransformer`)
-  #- RKSupport (from `Vendor/RKSupport`)
+  - RKSupport (from `Vendor/RKSupport`)
 
 EXTERNAL SOURCES:
   RestKit:
     :path: .
   RKCLLocationValueTransformer:
     :git: https://github.com/RestKit/RKCLLocationValueTransformer
-#  RKSupport:
-#    :path: Vendor/RKSupport
+  RKSupport:
+    :path: Vendor/RKSupport
 
 SPEC CHECKSUMS:
   AFNetworking: e8cfd8f3fe3bfe19124a0cc63f4d45752d892a56

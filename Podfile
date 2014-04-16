@@ -1,12 +1,12 @@
 inhibit_all_warnings!
 
 def import_pods
-  #pod 'RKSupport', path: 'Vendor/RKSupport'
+  pod 'RKSupport', path: 'Vendor/RKSupport'
   
   pod 'CSURITemplate', :head # Until new tag is created
   pod 'RestKit', path: '.'
   pod 'RestKit/Testing', path: '.'
-  # pod 'RestKit/Search', path: '.'
+  pod 'RestKit/Search', path: '.'
   
   pod 'OCMock', '2.2.1'
   pod 'OCHamcrest', '3.0.1'
